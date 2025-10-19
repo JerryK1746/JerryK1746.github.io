@@ -20,3 +20,25 @@ h2 {
     font-style: italic;
     font-size: 1.5rem;
 }
+
+.job-title { 
+    color: darkslategray;
+    font-weight: bold;
+}
+
+ul {
+    background-color: white;
+    border: 5px solid purple;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+a {
+    color: green;
+}
+
+a:hover,
+a:focus {
+    color: green;
+    text-decoration: none;
+}
