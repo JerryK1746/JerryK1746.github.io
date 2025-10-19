@@ -55,7 +55,7 @@ nav a {
   padding: 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1px;
+  gap: 5px;
 }
 
 .feature {
