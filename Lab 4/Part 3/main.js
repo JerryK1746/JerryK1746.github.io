@@ -1,6 +1,6 @@
 const canvas = document.querySelector("canvas");
 const ctx = canvas.getContext("2d");
-tx.fillStyle = "green";
+ctx.fillStyle = "green";
 ctx.fillRect(10, 10, 100, 100);
 
 const width = (canvas.width = window.innerWidth);
