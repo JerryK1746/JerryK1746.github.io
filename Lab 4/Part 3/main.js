@@ -4,6 +4,11 @@ const ctx = canvas.getContext("2d");
 const width = (canvas.width = window.innerWidth);
 const height = (canvas.height = window.innerHeight);
 
+const canvas = document.querySelector("canvas");
+const ctx = canvas.getContext("2d");
+ctx.fillStyle = "green";
+ctx.fillRect(10, 10, 100, 100);
+
 function random(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
