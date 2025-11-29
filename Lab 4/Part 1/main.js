@@ -32,6 +32,8 @@ function returnRandomStoryString() {
 generateBtn.addEventListener("click", generateStory);
 
 function generateStory() {
+    let newStory = returnRandomStoryString();
+    
   if (customName.value !== "") {
     const name = customName.value;
   }
