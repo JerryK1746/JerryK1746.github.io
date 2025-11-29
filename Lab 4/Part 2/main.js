@@ -13,7 +13,7 @@ const images = [
     {filename: "pic4.jpg", alt: "Section of wall from a pharaoh's tomb"},
     {filename: "pic5.jpg", alt: "Large moth on a leaf"},
 ];
-
+// loop through images
 const baseURL = 
     "https://mdn.github.io/shared-assets/images/examples/learn/gallery/";
 
@@ -38,3 +38,15 @@ function updateDisplayedImage(e) {
     displayedImage.alt = e.target.alt;
 
 }
+
+// darken and lighten button
+btn.addEventListener("click", () => {
+    if (btn.classList.contains("dark")) {
+        btn.textContent = "Lighten";
+        overlay.computedStyleMap.backgroundColor = "rgb(0 0 0 / 0.5)";
+    } else {
+        btn.textContent = "Darken";
+        overlay.computedStyleMap.backgroundColor = "rgb(0 0 0 / 0)";
+    }
+    btn.classList.toggle("dark");
+});
