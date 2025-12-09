@@ -27,14 +27,15 @@
       </ul>
 
       <form class="search">
-        <input type="search" name="q" placeholder="Search query">
+        <label for="search" class="visually-hidden">Search the site</label>
+        <input type="search" id="search" name="q" placeholder="Search query">
         <input type="submit" value="Go!">
       </form>
     </div>
 
     <main>
       <article>
-        <font size="6">The trouble with Bears</font>
+        <h2>The trouble with Bears</h2>
         <br><br>
         By Evan Wild
         <br><br>
@@ -42,39 +43,40 @@
         <br><br>
         So what are bears really like, and why does the world's media portray them with such a skewed vision? In this article we try to answer those questions, and give you a real insight into the life of the bear.
         <br><br>
-        <font size="5">Types of bear</font>
+        <h3>Types of bear<h3>
         <br><br>
         Bears come in two varieties — large and medium. You don't get small bears. If you have seen a small bear, then it was in fact probably a baby bear (cub) from another species.
         <br><br>
         Bears can also be classified in terms of their habitat — both large and medium bears are just as at home in urban areas as they are in the countryside. Different habitats encourange different behaviour however, as you'll find out below. The below table also gives you some useful facts about bears.
         <br><br>
         <table>
-          <thead>
+          <caption>Comparison chart of wild and urban bear characteristics</caption>
+           <thead>
             <tr>
-              <td>Bear Type</td>
-              <td>Coat</td>
-              <td>Adult size</td>
-              <td>Habitat</td>
-              <td>Lifespan</td>
-              <td>Diet</td>
+              <th scope="col">Bear Type</th>
+              <th scope="col">Coat</th>
+              <th scope="col">Adult size</th>
+              <th scope="col">Habitat</th>
+              <th scope="col">Lifespan</th>
+              <th scope="col">Diet</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>Wild</td>
-              <td>Brown or black</td>
-              <td>1.4 to 2.8 meters</td>
-              <td>Woods and forests</td>
-              <td>25 to 28 years</td>
-              <td>Fish, meat, plants</td>
+              <th scope="row">Wild</th>
+              <th scope="row">Brown or black</th>
+              <th scope="row">1.4 to 2.8 meters</th>
+              <th scope="row">Woods and forests</th>
+              <th scope="row">25 to 28 years</th>
+              <th scope="row">Fish, meat, plants</th>
             </tr>
             <tr>
-              <td>Urban</td>
-              <td>North Face</td>
-              <td>18 to 22</td>
-              <td>Condos and coffee shops</td>
-              <td>20 to 32 years</td>
-              <td>Starbucks, sushi</td>
+              <th scope="row">Urban</th>
+              <th scope="row">North Face</th>
+              <th scope="row">18 to 22</th>
+              <th scope="row">Condos and coffee shops</th>
+              <th scope="row">20 to 32 years</th>
+              <th scope="row">Starbucks, sushi</th>
             </tr>
           </tbody>
         </table>
@@ -83,11 +85,11 @@
         <br><br>
         Wild bears eat a variety of meat, fish, fruit, nuts, and other natually growing ingredients. In general they will hunt for food themselves in woodland or rivers, but at a push they will track down their sustenance from farms or country houses. They tend to live in relative isolation, in caves, tents, or cottages.
         <br><br>
-        <img src="media/wild-bear.jpg">
+        <img src="media/wild-bear.jpg" alt="A wild brown bear standing in a forest">
         <br><br>
         Urban (gentrified) bears on the other hand have largely abandoned the old ways. They will hunt other urban creatures if necessary (including other predators like rats and foxes), but prefer to scavenge from readily available urban food outlets like dumpsters, bins, and fast food joints. When food has proven scarce, urban bears have even been known to break into people's kitchens and steal essentials like baked beans, ready meals, and microwave ovens.
         <br><br>
-        <img src="media/urban-bear.jpg">
+        <img src="media/urban-bear.jpg" alt="A bear in an urban setting beside trash bins">
         <br><br>
         Urban bears will sleep anywhere they can, from bus shelters and parks, to the toilets in McDonalds, to their own apartment.
         <br><br>
@@ -100,7 +102,9 @@
         <audio controls>
           <source src="media/bear.mp3" type="audio/mp3">
           <source src="media/bear.ogg" type="audio/ogg">
-          <p>It looks like your browser doesn't support HTML5 audio players.</p>
+          <p>It looks like your browser doesn't support HTML5 audio players.
+            <a href="media/bear.mp3">link to the audio</a> instead.
+          </p>
         </audio>
 
         <aside>
