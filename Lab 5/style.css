@@ -51,8 +51,12 @@ p, li, table {
 
 /* || header layout */
 
+.header {
+  text-align: center;
+}
+
 div[class="nav"], article, footer, .secondary {
-  background-color: green;
+  background-color: white;
 }
 
 article, footer, .secondary {
